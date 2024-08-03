@@ -1,0 +1,18 @@
+﻿<Window x:Class="wpf_freq_plot.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:oxy="clr-namespace:OxyPlot.Wpf;assembly=OxyPlot.Wpf" 
+        xmlns:simpleDemo="clr-namespace:wpf.oxyplot"
+        xmlns:local="clr-namespace:wpf_freq_plot"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900">
+    <Window.DataContext>
+        <simpleDemo:MainViewModel />
+    </Window.DataContext>
+    <Grid>
+        <!-- The OxyPlot control is binding to a PlotModel in the MainViewModel -->
+        <oxy:PlotView Model="{Binding Model}" />
+    </Grid>
+</Window>

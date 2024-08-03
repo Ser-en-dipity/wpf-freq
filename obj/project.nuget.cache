@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2gtzShG1lKPiy94TDtz9HaJb4gaX7tlZNPiNuZTaWtasNCBxOpwxCNiSqyv77eijJXv+qNTtLPccvXQ2N9xIjQ==",
+  "success": true,
+  "projectFilePath": "D:\\wpf-freq-plot\\wpf-freq-plot.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\小透明\\.nuget\\packages\\oxyplot.core\\2.1.2\\oxyplot.core.2.1.2.nupkg.sha512",
+    "C:\\Users\\小透明\\.nuget\\packages\\oxyplot.wpf\\2.1.2\\oxyplot.wpf.2.1.2.nupkg.sha512",
+    "C:\\Users\\小透明\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.2\\oxyplot.wpf.shared.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
